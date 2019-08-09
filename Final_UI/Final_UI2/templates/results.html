@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+		<h1><bold>Top 10 similar matches for the requested Company</h1></head><br><br>
+		<body>
+		{{ d.to_html(classes="table table-striped") | safe}}
+		</body>
+		</html>
+
+{% endblock content %}		
